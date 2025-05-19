@@ -1,0 +1,8 @@
+# 建置docker + 啟動
+# docker build -f 3dgs_base -t image-name . 
+# docker run --gpus all -it -v ${PWD}:/workspace --name your-containers your-image-name
+# 啟動關閉的container
+# docker start -ai 3dgs
+# conda init bash
+# source ~/.bashrc 
+#
